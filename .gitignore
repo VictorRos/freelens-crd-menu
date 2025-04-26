@@ -1,0 +1,49 @@
+# Project property files
+.gradle/
+.history/
+.idea/
+.project/
+.settings/
+# Ignore all VSCode files except extensions.json
+.vscode/*
+!.vscode/extensions.json
+*.bat
+*.iml
+*.rest
+build.gradle
+setup.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Project generated files
+node_modules/
+dist/
+playwright/
+docker-metadata.json
+version.json
+env-config.js
+*.log
+*.tar
+*.tgz
+
+# Tests
+coverage/
+junit.xml
+test-report.xml
+
+# Lint
+eslint.json
+
+# Docker
+docker-compose.override.yml
+
+# All ".env*" files except ".env.*"
+.env*
+!.env.*
+
+# MegaLinter files
+tmp/
+megalinter-reports/
+*-megalinter_file_names_cspell.txt
